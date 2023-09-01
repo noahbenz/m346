@@ -10,7 +10,7 @@
 
 ## Private Cloud
 
-**Beschreibung:** Ressourcen werden über Cloud-Dienste bezogen, nur für das Unternehmen.
+**Beschreibung:** Ressourcen werden über Cloud-Dienste bezogen, nur für das Unternehmen. Bereitstellung im eigenen Rechenzentrum.
 **Vorteile:** Anpassbarkeit, flexible Skalierung, erhöhte Sicherheit, Cloud-ähnliche Skalierbarkeit.
 **Nachteile:** Verwaltungsaufwand, möglicherweise höhere Kosten als Public Cloud.
 
@@ -20,13 +20,13 @@
 
 **Beschreibung:** IT-Services über Internet von Cloud-Anbietern gemietet, Verwaltung durch Anbieter.
 **Vorteile:** Skalierbare Abonnements, reduzierte Hardware-Kosten, Entlastung der Ressourcen, Sicherheitsvorteile.
-**Nachteile:** Eingeschränkte Anbieterwahl, Sicherheitsrisiken, geteilte Ressourcen.
+**Nachteile:** Eingeschränkte Anbieterwahl, Sicherheitsrisiken, geteilte Ressourcen. Keine Kontrolle über die Infrastruktur.
 
 **Beispiel:** Ein E-Commerce-Start-up nutzt die Public Cloud, um seine Webanwendung zu hosten und flexibel auf steigende Benutzerzahlen zu reagieren.
 
 ## Hybrid Cloud
 
-**Beschreibung:** Kombination von On-Premises und Public Cloud, Kontrolle und Skalierbarkeit.
+**Beschreibung:** Kombination von Private und Public Cloud, Kontrolle und Skalierbarkeit.
 **Vorteile:** Flexibilität, Ressourceneinsparung, Kostenersparnis, Sicherheit für sensible Daten.
 **Nachteile:** Zusätzlicher Aufwand, klare Regeln für Sicherheit erforderlich.
 
