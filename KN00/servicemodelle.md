@@ -15,25 +15,28 @@ Die verschiedenen Cloud-Servicemodelle bieten unterschiedliche Ebenen der Bereit
 
 ## Infrastructure as a Service (IaaS)
 
-![img](images/IaaS.png)
+<img src="images/IaaS.png" alt="IaaS" style="max-width:40%;">
+
 **Beschreibung:** IaaS bezieht sich auf die Miete von Infrastruktur, wie virtuellen Maschinen und Netzwerken. Die Verwaltung der Hardware und Ressourcen liegt in der Verantwortung des Anbieters.  
 **Vorteile:** Flexibilität, Skalierbarkeit, Kontrolle über Konfiguration.  
 **Nachteile:** Benötigt weiterhin Management von Betriebssystemen und Anwendungen, technisches Fachwissen.
 
 ## Platform as a Service (PaaS)
-![img](images/PaaS.png)
+<img src="images/PaaS.png" alt="IaaS" style="max-width:40%;">
+
 **Beschreibung:** PaaS stellt eine vorgefertigte Entwicklungsplattform bereit, auf der Entwickler Anwendungen erstellen und ausführen können. Die zugrunde liegende Infrastruktur und Wartung werden vom Anbieter übernommen.  
 **Vorteile:** Schnellere Entwicklung, automatisierte Skalierung, geringerer Wartungsaufwand.  
 **Nachteile:** Eingeschränkte Kontrolle über die zugrunde liegende Infrastruktur, begrenzte Anpassungsmöglichkeiten.
 
 ## Software as a Service (SaaS)
-![img](images/SaaS.png)
+<img src="images/SaaS.png" alt="IaaS" style="max-width:40%;">
+
 **Beschreibung:** SaaS bietet vollständige Anwendungen über das Internet an. Nutzer können die Anwendungen über den Webbrowser nutzen, ohne sich um Installation oder Wartung kümmern zu müssen.  
 **Vorteile:** Einfacher Zugang, keine Installation erforderlich, automatische Updates.  
 **Nachteile:** Begrenzte Anpassungsmöglichkeiten, Abhängigkeit vom Anbieter, Datenschutzüberlegungen.
 
 ## Function as a Service (FaaS)
-![img](images/FaaS.png)
+<img src="images/IaaS.png" alt="IaaS" style="max-width:40%;">
 
 **Beschreibung:** FaaS ermöglicht die Ausführung von isolierten Funktionen oder Geschäftslogik in einer Serverless-Umgebung. Entwickler fügen ihre Funktionen hinzu, ohne sich um die zugrunde liegende Infrastruktur kümmern zu müssen.  
 **Vorteile:** Skalierbare Ausführung, Kostenoptimierung, Fokus auf Geschäftslogik.  
