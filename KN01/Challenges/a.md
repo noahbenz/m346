@@ -48,7 +48,7 @@ Die t2.micro-Instanzen sind kostengünstig, aber begrenzt in ihrer Rechenleistun
 - **CPU:** 4 virtuelle CPUs.
 - **RAM:** 16 GB.
 - **Netzwerkleistung:** Hohe Netzwerkleistung.
-- **Speicher:** EBS-Speicherzugriff.
+- **Speicher:** EBS-Speicherzugriff. ( Elastic Block Store (EBS) ermöglicht in Amazon Web Services (AWS) den Speicherzugriff auf Blockebene, indem es virtuelle Blockgeräte an EC2-Instanzen anhängt und persistente, skalierbare Speicherlösungen bereitstellt.)
 
 ### Verständnis der Auswirkungen für m4.xlarge
 
