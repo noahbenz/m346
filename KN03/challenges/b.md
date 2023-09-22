@@ -20,6 +20,10 @@ $ ssh ubuntu@18.232.112.230   -i noah-1.pem -o ServerAliveInterval=30
 $ ssh ubuntu@18.232.112.230   -i noah-3.pem -o ServerAliveInterval=30
 ![Key 2 try](key2try.png)
 
+### Instanz
+| Name  | Instance ID            | Instance state | Instance type | Status check          | Alarm status | Availability Zone | Public IPv4 DNS                          | Public IPv4 address | Elastic IP | IPv6 IPs | Monitoring | Security group name | Key name | Launch time             | Platform d  |
+|-------|------------------------|----------------|---------------|-----------------------|--------------|-------------------|------------------------------------------|---------------------|------------|----------|------------|----------------------|----------|-------------------------|-------------|
+| kn03c | i-04ed0718f830a1c6d    | Running        | t2.micro      | 2/2 checks passed     | No alarms    | us-east-1a        | ec2-54-146-59-31.compute-1.amazonaws.com | 54.146.59.31        | –          | –        | disabled   | launch-wizard-5      | noah-1   | 2023/09/22 10:06 GMT+2 | Linux/UNIX  |
 
 
  ### Was passiert?

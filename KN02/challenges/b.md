@@ -24,6 +24,9 @@
 - **Command:** ssh ubuntu@3.84.147.147  -i noah-3.pem -o ServerAliveInterval=30
 <img src="images/../../images/pem2.png" alt="module1" style="max-width:100%;">
 
+### Instanz
+
+
 ### Key pairs
 | Name   | Instance ID          | Instance State | Instance Type | Status Check      | Alarm Status | Availability Zone | Public IPv4 DNS                          | Public IPv4 Address | Elastic IP | IPv6 IPs | Monitoring | Security Group Name | Key Name | Launch Time            | Platform Details |
 |--------|----------------------|----------------|---------------|-------------------|--------------|-------------------|------------------------------------------|---------------------|------------|----------|------------|---------------------|----------|-----------------------|------------------|
