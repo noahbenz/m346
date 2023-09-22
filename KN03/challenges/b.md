@@ -7,4 +7,21 @@ Anleitung
 Anstatt, dass Sie den SSH-Key im GUI auswählen, können Sie ihn auch im Cloud-Init mitgeben. Dies werden wir folgend tun.  Installieren Sie puttygen, falls Sie es noch nicht haben (unter Quellen finden Sie den Link). Extrahieren Sie den öffentlichen Schlüssel (für beide Keys) wie folgt.
 
 
+### Verbinden mit Instanz
+
 ![public key inserted](publickeyinserted.png)
+
+
+#### Key1
+$ ssh ubuntu@18.232.112.230   -i noah-1.pem -o ServerAliveInterval=30
+- Es funktioniert
+
+#### Key2
+$ ssh ubuntu@18.232.112.230   -i noah-3.pem -o ServerAliveInterval=30
+![Key 2 try](key2try.png)
+
+
+
+ ### Was passiert?
+ - Durch den generierten Key im Putty wird der zweite Schlüssel **noah-3.pem** überschrieben mit **noah-1.pem**
+ - **Grund:** Das .yaml file welches wir bei additional settings eingefügt haben, hat den Key überschrieben.
