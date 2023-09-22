@@ -15,3 +15,7 @@
    - Software as a Service (SaaS)
    - Function as a Service (FaaS)
    - X as a Service (XaaS)
+
+### KN01
+
+### KN02
