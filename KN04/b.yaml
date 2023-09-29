@@ -1,0 +1,45 @@
+#cloud-config
+users:
+  - name: ubuntu      # Hier den gewünschten Benutzernamen eingeben
+    sudo: ALL=(ALL) NOPASSWD:ALL   # Gibt dem Benutzer sudo-Rechte ohne Passwortabfrage
+    groups: users,sudo      # Benutzer in Gruppen 'users' und 'sudo' hinzufügen
+    home: /home/ubuntu   # Home-Verzeichnis des Benutzers
+    shell: /bin/bash        # Shell des Benutzers
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCRxx+UKiy0G8eGG6kPntVn+kTdZkSSwT8Az50JfUP/CKIuI9jZkpMm5+PYkvlr/Spy4EAq/fq61oXrc2HygZk8kLqTRrcagfYcnBTyKDBHDO67HPGZuKQI55ud2nDODfp+hbwthfGgftyqbqO827wu5ZWHlDrtUNZcrBuxGjJrlyeBhnA80mzLIVLM8o3TCpaRoW+q+IkZOaINmk6QgV0fO7pL/4u2J1J+9aSFZV1n1F8hni+cmHV17G+n7E7vt/RmXmWrV6p8OoKXAXofA32SyWoShkvjNLrk4ejKJP/iHgMovac1UGD9nBH+XKWPOKqAWmjamKRIb8g28pynslrN aws-key
+
+disable_root: true          # Direkte Anmeldungen als Root deaktivieren
+
+package_update: true  
+packages:
+  - apache2                 # Apache Webserver
+  - php                     # PHP
+  - libapache2-mod-php      # PHP Modul für Apache
+  - mysql-server            # MySQL-Server
+  - php-mysql               # PHP-Modul für MySQL
+  
+write_files:
+  - content: |
+      <?php phpinfo(); ?>
+    path: /var/www/html/info.php
+    permissions: '0644'
+  - content: |
+      <?php
+      $ihrname = "Benz";
+      ?>
+      <html>
+      <head>
+      <title><?php echo $ihrname; ?></title>
+      </head>
+      <body>
+      <h1>Noah Bucket</h1>
+      <br />
+      <img src="https://kn04-a.s3.amazonaws.com/Screenshot+2023-06-09+114332.png" alt="Bild aus S3-Bucket">
+      </body>
+      </html>
+    path: /var/www/html/yourfile.php   # Hier Pfad und Dateiname eingeben, z.B. /var/www/html/yourfile.php
+    permissions: '0644'
+
+runcmd:
+  - sudo systemctl enable apache2  # Apache beim Booten starten
+  - sudo systemctl start apache2   # Apache jetzt starten
