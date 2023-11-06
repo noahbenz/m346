@@ -28,3 +28,5 @@ Creates a simple webpage
 ![Alt text](image-5.png)
 DNS: myloadbalancer-1092256527.us-east-1.elb.amazonaws.com
 Video auf Handy gemacht, alles funktioniert!
+
+![](5b.mp4)
