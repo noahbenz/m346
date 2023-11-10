@@ -3,7 +3,7 @@
 ## Recherche zu Fachbegriffen
 - **High Availability (HA)**: Kontinuierliche Systemverfügbarkeit durch Redundanz und Automatisierung. Beispiel: USV bei Stromausfall.
 
-- **Fault Tolerance (FT)**: Systemfunktion trotz schwerwiegender Fehler oder Ausfälle. Beispiel: RAID für Datensicherheit.
+- **Fault Tolerance (FT)**: Systemfunktion trotz schwerwiegender Fehler oder Ausfälle. Beispiel: RAID für Datensicherheit. Hält das System am laufen bei Fehlern.
 
 ### HA-Maßnahmen bei Stromausfall
 - **Beispiel**: Installation einer USV im Serverraum für Stromausfallschutz.
