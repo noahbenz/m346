@@ -17,3 +17,4 @@ Ein **Virtual Private Cloud (VPC)** ist ein virtuelles Netzwerk in der Cloud, da
 - **Skalierbarkeit**: VPCs sind skalierbar. Sie können die Größe Ihres Netzwerks und die Anzahl der darin enthaltenen Ressourcen je nach Bedarf erhöhen oder reduzieren.
 
 Insgesamt bietet ein VPC die Möglichkeit, eine sichere und maßgeschneiderte Netzwerkumgebung in der Cloud zu erstellen, die den Anforderungen Ihres Unternehmens entspricht. Es ist ein grundlegendes Konzept in Cloud-Umgebungen wie AWS, um Ressourcen zu organisieren und zu schützen.
+![Alt text](image.png)
